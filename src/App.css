@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-container {
+  background-color: #223a5f;
+  width: 50vw;
+  padding: 50px;
+}
+.close-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.rules-btn-card {
+  display: flex;
+  justify-content: flex-end;
+}
+.rules-img {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.choice-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.choice-btn {
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-self: center;
+  background-color: transparent;
+}
+.choice-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}

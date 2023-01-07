@@ -1,0 +1,24 @@
+.game-status-card {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.game-results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.playing-btn {
+  color: #223a5f;
+  font-family: 'Roboto';
+  font-size: 14px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
